@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    background-color: rgba(164, 182, 182, 0.308);
+}
+
+.Container {
+    width: 900px;
+    height: 600px;
+    background-color: rgb(238, 108, 199);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    justify-items: center;
+
+
+}
+
+.basic {
+    width: 220px;
+    height: 500px;
+    background-color: blue;
+    border-radius: 10px 10px 0px 0px;
+    box-shadow: 10px 10px 10px rgb(121, 118, 118);
+}
+
+.basic1 {
+    height: 100px;
+    border-radius: 10px 10px 0px 0px;
+    background-color: rgb(32, 223, 223);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-weight: bolder;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.text {
+    height: 300px;
+    background-color: white;
+    text-align: center;
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.price {
+    height: 50px;
+    background-color: rgb(32, 223, 223);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buy {
+    height: 50px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0px 0px 10px 10px;
+}
+
+.user1 {
+    color: rgb(32, 223, 223);
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(255, 53, 164);
+}
+
+.online1 {
+    color: rgb(199, 204, 207);
+}
+
+
+
+
+/* ----------------------Pro--------------------------- */
+.pro {
+    background-color: rgb(43, 253, 253);
+
+}
+
+.pro1 {
+    height: 100px;
+    border-radius: 10px 10px 0px 0px;
+    background-color: rgb(255, 202, 30);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-weight: bolder;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.price2 {
+    background-color: rgb(255, 202, 30);
+}
+
+.user2 {
+    color: rgb(255, 202, 30);
+}
+
+.setup2 {
+    color: rgb(199, 204, 207);
+}
+
+
+
+/* -----------------Exp---------------------------- */
+.exp {
+    background-color: rgb(214, 173, 37);
+}
+
+.exp1 {
+    height: 100px;
+    border-radius: 10px 10px 0px 0px;
+    background-color: rgb(253, 30, 30);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-weight: bolder;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.price3 {
+
+    background-color: rgb(248, 18, 18);
+}
+
+.user3 {
+    color: red;
+}
